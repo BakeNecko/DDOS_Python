@@ -1,0 +1,33 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+psycopg2-binary = "*"
+wrk = "*"
+uvicorn = "*"
+gunicorn = "*"
+django-cors-headers = "*"
+locust = "*"
+aiohttp = "*"
+aiopg = "*"
+asyncpg = "*"
+asyncpgsa = "*"
+peewee = "*"
+pyramid = "*"
+pyramid-sqlalchemy = "*"
+postgres = "*"
+bottle = "*"
+bottle-pgsql = "*"
+isort = "*"
+falcon = "*"
+fastapi = "*"
+databases = {extras = ["postgresql"], version = "*"}
+colorama = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
